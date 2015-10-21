@@ -3,6 +3,7 @@
 //using System.Linq;
 //using System.Text;
 using System.Management;
+using System.Net;
 
 namespace Wmi
 {
@@ -37,6 +38,10 @@ namespace Wmi
                     throw new Exception("Failed to reboot host: " + hostName);
                 }
             }
-        }            
+        }     
+        
+        public static void ShutdownHost(IPAddress ip) {
+            ShutdownHost(ip.ToString());
+        }
     }
 }

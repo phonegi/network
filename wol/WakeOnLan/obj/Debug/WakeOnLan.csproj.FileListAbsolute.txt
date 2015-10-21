@@ -11,3 +11,8 @@ C:\Users\david_buler\Syncplicity Folders\VS 2010 Projects\Network\wol\WakeOnLan\
 C:\Users\david_buler\Syncplicity Folders\VS 2010 Projects\Network\wol\WakeOnLan\obj\Debug\WakeOnLan.csprojResolveAssemblyReference.cache
 C:\Users\david_buler\Syncplicity Folders\VS 2010 Projects\Network\wol\WakeOnLan\obj\Debug\WakeOnLan.dll
 C:\Users\david_buler\Syncplicity Folders\VS 2010 Projects\Network\wol\WakeOnLan\obj\Debug\WakeOnLan.pdb
+C:\Users\david_buler\Documents\GitHub\network\wol\WakeOnLan\bin\Debug\WakeOnLan.dll
+C:\Users\david_buler\Documents\GitHub\network\wol\WakeOnLan\bin\Debug\WakeOnLan.pdb
+C:\Users\david_buler\Documents\GitHub\network\wol\WakeOnLan\obj\Debug\WakeOnLan.csprojResolveAssemblyReference.cache
+C:\Users\david_buler\Documents\GitHub\network\wol\WakeOnLan\obj\Debug\WakeOnLan.dll
+C:\Users\david_buler\Documents\GitHub\network\wol\WakeOnLan\obj\Debug\WakeOnLan.pdb
