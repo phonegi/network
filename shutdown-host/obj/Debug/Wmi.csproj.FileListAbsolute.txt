@@ -1,0 +1,5 @@
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\shutdown-host\bin\Debug\shutdown-host.dll
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\shutdown-host\bin\Debug\shutdown-host.pdb
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\shutdown-host\obj\Debug\shutdown-host.dll
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\shutdown-host\obj\Debug\shutdown-host.pdb
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\shutdown-host\obj\Debug\Wmi.csprojResolveAssemblyReference.cache

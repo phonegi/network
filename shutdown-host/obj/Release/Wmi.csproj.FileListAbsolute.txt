@@ -1,0 +1,4 @@
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\shutdown-host\bin\Release\shutdown-host.dll
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\shutdown-host\bin\Release\shutdown-host.pdb
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\shutdown-host\obj\Release\shutdown-host.dll
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\shutdown-host\obj\Release\shutdown-host.pdb

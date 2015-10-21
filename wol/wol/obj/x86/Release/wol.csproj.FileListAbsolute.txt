@@ -1,0 +1,4 @@
+c:\users\david\documents\visual studio 2010\Projects\wol\wol\bin\Release\wol.exe
+c:\users\david\documents\visual studio 2010\Projects\wol\wol\bin\Release\wol.pdb
+c:\users\david\documents\visual studio 2010\Projects\wol\wol\obj\x86\Release\wol.exe
+c:\users\david\documents\visual studio 2010\Projects\wol\wol\obj\x86\Release\wol.pdb

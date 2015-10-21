@@ -1,0 +1,6 @@
+C:\Users\david_buler\Syncplicity Folders\VS 2010 Projects\Network\wol\Test\bin\Debug\wol.exe
+C:\Users\david_buler\Syncplicity Folders\VS 2010 Projects\Network\wol\Test\bin\Debug\wol.pdb
+C:\Users\david_buler\Syncplicity Folders\VS 2010 Projects\Network\wol\Test\bin\Debug\WakeOnLan.dll
+C:\Users\david_buler\Syncplicity Folders\VS 2010 Projects\Network\wol\Test\bin\Debug\WakeOnLan.pdb
+C:\Users\david_buler\Syncplicity Folders\VS 2010 Projects\Network\wol\Test\obj\x86\Debug\wol.exe
+C:\Users\david_buler\Syncplicity Folders\VS 2010 Projects\Network\wol\Test\obj\x86\Debug\wol.pdb

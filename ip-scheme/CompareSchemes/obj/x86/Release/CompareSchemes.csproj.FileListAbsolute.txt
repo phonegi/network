@@ -1,0 +1,7 @@
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\Network\ip-scheme\CompareSchemes\bin\Release\CompareSchemes.exe
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\Network\ip-scheme\CompareSchemes\bin\Release\CompareSchemes.pdb
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\Network\ip-scheme\CompareSchemes\bin\Release\Network.dll
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\Network\ip-scheme\CompareSchemes\bin\Release\Network.pdb
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\Network\ip-scheme\CompareSchemes\obj\x86\Release\CompareSchemes.exe
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\Network\ip-scheme\CompareSchemes\obj\x86\Release\CompareSchemes.pdb
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\Network\ip-scheme\CompareSchemes\obj\x86\Release\CompareSchemes.csprojResolveAssemblyReference.cache

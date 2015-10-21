@@ -1,0 +1,4 @@
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\Network\ip-scheme\Network\bin\Release\Network.dll
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\Network\ip-scheme\Network\bin\Release\Network.pdb
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\Network\ip-scheme\Network\obj\Release\Network.dll
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\Network\ip-scheme\Network\obj\Release\Network.pdb

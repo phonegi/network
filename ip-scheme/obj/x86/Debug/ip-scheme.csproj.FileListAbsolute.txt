@@ -1,0 +1,4 @@
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\Network\ip-scheme\bin\Debug\ip-scheme.exe
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\Network\ip-scheme\bin\Debug\ip-scheme.pdb
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\Network\ip-scheme\obj\x86\Debug\ip-scheme.exe
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\Network\ip-scheme\obj\x86\Debug\ip-scheme.pdb

@@ -1,0 +1,19 @@
+c:\users\david\documents\visual studio 2010\Projects\wol\wol\bin\Debug\wol.exe
+c:\users\david\documents\visual studio 2010\Projects\wol\wol\bin\Debug\wol.pdb
+c:\users\david\documents\visual studio 2010\Projects\wol\wol\obj\x86\Debug\wol.exe
+c:\users\david\documents\visual studio 2010\Projects\wol\wol\obj\x86\Debug\wol.pdb
+C:\Users\David\Documents\Visual Studio 2010\Projects\wol\wol\obj\x86\Debug\wol.csprojResolveAssemblyReference.cache
+C:\Users\david_buler\Syncplicity Folders\VS 2010 Projects\wol\wol\obj\x86\Debug\wol.exe
+C:\Users\david_buler\Syncplicity Folders\VS 2010 Projects\wol\wol\obj\x86\Debug\wol.pdb
+C:\Users\Work\Documents\Syncplicity Folders\VS 2010 Projects\wol\wol\obj\x86\Debug\wol.exe
+C:\Users\Work\Documents\Syncplicity Folders\VS 2010 Projects\wol\wol\obj\x86\Debug\wol.pdb
+C:\Users\Work\Documents\Syncplicity Folders\VS 2010 Projects\Network\wol\wol\obj\x86\Debug\wol.exe
+C:\Users\Work\Documents\Syncplicity Folders\VS 2010 Projects\Network\wol\wol\obj\x86\Debug\wol.pdb
+C:\Users\Work\Documents\Syncplicity Folders\VS 2010 Projects\Network\wol\wol\bin\Debug\wol.exe
+C:\Users\Work\Documents\Syncplicity Folders\VS 2010 Projects\Network\wol\wol\bin\Debug\wol.pdb
+C:\Users\Work\Documents\Syncplicity Folders\VS 2010 Projects\Network\wol\wol\obj\x86\Debug\wol.csprojResolveAssemblyReference.cache
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\Network\wol\wol\obj\x86\Debug\wol.exe
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\Network\wol\wol\obj\x86\Debug\wol.pdb
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\Network\wol\wol\obj\x86\Debug\wol.csprojResolveAssemblyReference.cache
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\Network\wol\wol\bin\Debug\wol.exe
+C:\Users\david_buler\Documents\Syncplicity Folders\Projects\Network\wol\wol\bin\Debug\wol.pdb
