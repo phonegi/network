@@ -8,32 +8,38 @@ namespace Network
 {
     public class WakeOnLan
     {
-        public static void WakeUp(string macString) {
+        public static bool WakeUp(string macString) {
             PhysicalAddress macAddress;
             try {
                 macAddress = PhysicalAddress.Parse(macString);
             }
             catch {
-                return;
+                return false;
             }
 
-            WakeUp(macAddress);
+            return WakeUp(macAddress);
         }
 
-        public static void WakeUp(PhysicalAddress macAddress) {
+        public static bool WakeUp(PhysicalAddress macAddress) {
             IPAddress[] ipAddresses;
             IPEndPoint ipEndPoint;
             UdpClient udpClient;
 
-            ipAddresses = Dns.GetHostAddresses(Dns.GetHostName());
-            foreach (IPAddress ipAddress in ipAddresses) {
-                if (IPAddress.IsLoopback(ipAddress) || ipAddress.AddressFamily != AddressFamily.InterNetwork) continue;
-                ipEndPoint = new IPEndPoint(ipAddress, 0);
-                udpClient = new UdpClient(ipEndPoint);
-                udpClient.Connect(IPAddress.Broadcast, 80);
-                byte[] data = GetMagicPacketBytes(macAddress);
-                udpClient.Send(data, data.Length);
+            try {
+                ipAddresses = Dns.GetHostAddresses(Dns.GetHostName());
+                foreach (IPAddress ipAddress in ipAddresses) {
+                    if (IPAddress.IsLoopback(ipAddress) || ipAddress.AddressFamily != AddressFamily.InterNetwork) continue;
+                    ipEndPoint = new IPEndPoint(ipAddress, 0);
+                    udpClient = new UdpClient(ipEndPoint);
+                    udpClient.Connect(IPAddress.Broadcast, 80);
+                    byte[] data = GetMagicPacketBytes(macAddress);
+                    udpClient.Send(data, data.Length);
+                }
             }
+            catch {
+                return false;
+            }
+            return true;
         }
 
         private static byte[] GetMagicPacketBytes(PhysicalAddress macAddress) {

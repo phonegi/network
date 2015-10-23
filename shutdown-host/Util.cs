@@ -9,7 +9,15 @@ namespace Wmi
 {
     public class Util
     {
-        public static void ShutdownHost(string hostName) {
+        public enum ShutdownResult {
+            SUCCESS,
+            ERROR_AUTHORIZATION,
+            ERROR_UNREACHABLE,
+            ERROR_REBOOT_FAILURE,
+            ERROR_UNKNOWN
+        }
+
+        public static ShutdownResult ShutdownHost(string hostName) {
             string adsiPath = string.Format(@"\\{0}\root\cimv2", hostName);
             System.Management.ManagementScope scope = new ManagementScope(adsiPath);
             // I've seen this, but I found not necessary:
@@ -21,27 +29,32 @@ namespace Wmi
             try {
                 instances = os.GetInstances();
             }
-            catch (UnauthorizedAccessException exception) {
-                throw new Exception("Not permitted to reboot the host: " + hostName, exception);
+            catch (UnauthorizedAccessException) {
+                //throw new Exception("Not permitted to reboot the host: " + hostName, exception);
+                return ShutdownResult.ERROR_AUTHORIZATION;
             }
             catch (System.Runtime.InteropServices.COMException exception) {
                 if (exception.ErrorCode == -2147023174) {
-                    throw new Exception("Could not reach the target host: " + hostName, exception);
+                    //throw new Exception("Could not reach the target host: " + hostName, exception);
+                    return ShutdownResult.ERROR_UNREACHABLE;
                 }
-                throw; // Unhandled
+                //throw; // Unhandled
+                return ShutdownResult.ERROR_UNKNOWN;
             }
             foreach (ManagementObject instance in instances) {
                 object result = instance.InvokeMethod("Shutdown", new object[] { });
                 uint returnValue = (uint)result;
 
                 if (returnValue != 0) {
-                    throw new Exception("Failed to reboot host: " + hostName);
+                    //throw new Exception("Failed to reboot host: " + hostName);
+                    return ShutdownResult.ERROR_REBOOT_FAILURE;
                 }
             }
+            return ShutdownResult.SUCCESS;
         }     
         
-        public static void ShutdownHost(IPAddress ip) {
-            ShutdownHost(ip.ToString());
+        public static ShutdownResult ShutdownHost(IPAddress ip) {
+            return ShutdownHost(ip.ToString());
         }
     }
 }
